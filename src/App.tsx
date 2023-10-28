@@ -1,10 +1,13 @@
+import React from 'react';
+import logo from './logo.svg';
 import './App.css';
+import NAV from './Comp/Nav';
 
 function App() {
   return (
-    <div className="App">
-     <h1>cheking is working or  snot</h1>
-    </div>
+    
+     <NAV />
+    
   );
 }
 
